@@ -15,6 +15,9 @@ h1,h2,h3,h4,h5,h6{
 h1{
     font-size: 35px;
 }
+h4{
+    font-size: 24px;
+}
 hr{
     color: aliceblue;
 }
@@ -53,7 +56,7 @@ nav{
     width: 80%;
     margin: auto;
     padding: 5px;
-    border: 3px solid white;
+    border: 2px solid white;
     padding-bottom: 0;
 }
 
@@ -78,7 +81,7 @@ nav{
     width: 1600px;
 }
 .gif{
-    border: 3px solid white;
+    border: 2px solid white;
     padding: 5px;
     /* margin-left: 20px; */
     /* margin-right: 10px; */
@@ -87,6 +90,96 @@ nav{
     padding-bottom: 0;
 }
 
-/* ----------------------------------------------------------------------   carosel  */
+/* ----------------------------------------------------------------------   collection  */
+ .coll{
+     display: flex;
+     flex-direction: column;
+     margin: auto;
+     align-content: space-between;
+ }
 
+.coll1,.coll2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+/* .coll>.coll1>img{
+    margin: 5px;
+}
+.coll>.coll2>img{
+    margin: 5px;
+} */
 
+/* ---------------------------------------------------------------------- road map  */
+
+/* intro  */
+.rm_cov{
+    /* background: rgb(204, 13, 13); */
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    max-width: 1100px;
+}
+
+.rm_intro{
+    display: flex;
+    justify-content: space-between;
+    /* margin-right: 30px; */
+    /* width: 1100px; */
+    /* background: #000; */
+}
+.intro_text{
+    width: 1100px;
+    margin-right: 20px;
+    padding: 20px;
+    /* background: rgb(184, 14, 14); */
+    border: 2px solid white;
+}
+.rm_icon{
+    border: 2px solid white;
+    padding: 5px;
+    margin: auto;
+}
+
+/* 10%  */
+
+.task{
+    display: flex;
+    flex-wrap: nowrap;
+    margin: auto;
+    /* background: rgb(14, 184, 51); */
+    margin-top: 50px;
+    align-self: center;
+    justify-content: space-between;
+    padding: 20px;
+    /* width: 100%; */
+}
+.percentage{
+    margin: auto;
+   margin-right: 30px;
+   align-self: start;
+   /* background: cornflowerblue; */
+}
+.task_text{
+    margin: auto;
+    
+}
+.task_icon{
+    margin-left: 20px;
+    align-self: center;
+}
+
+.active{
+    background: #6fc14f ;
+    border: 2px solid white;
+}
+.active >.percentage> h1{
+    color: rgb(0, 0, 0);
+}
+.active >.task_text> h4{
+    color: rgb(0, 0, 0);
+}
