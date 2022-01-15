@@ -269,8 +269,10 @@ nav{
 
 .join_link{
     display: flex;
-    justify-content: space-between;
     height: 40px;
+}
+.f_twitter{
+    margin-right: 20px;
 }
 
 .f_logo{
@@ -374,8 +376,6 @@ nav{
     }
     
     .join_link{
-        display: flex;
-        justify-content: space-between;
         height: 24px;
     }
     
@@ -423,6 +423,7 @@ nav{
             margin-top: 10px;
             margin-bottom: 10px;
             max-width: 1010%;
+            
         }
 
     }
