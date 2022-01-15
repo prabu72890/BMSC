@@ -49,6 +49,8 @@ nav{
     height: 40px;
 }
 
+
+
 /* ------------------------------------------------------------------------   hero  */
 
 .hero{
@@ -59,6 +61,7 @@ nav{
     border: 2px solid white;
     padding-bottom: 0;
 }
+
 
 /* -----------------------------------------------------------------------   intro  */
 
@@ -90,6 +93,7 @@ nav{
     padding-bottom: 0;
 }
 
+
 /* ----------------------------------------------------------------------   collection  */
  .coll{
      display: flex;
@@ -114,6 +118,9 @@ nav{
     margin: 5px;
 } */
 
+
+
+
 /* ---------------------------------------------------------------------- road map  */
 
 /* intro  */
@@ -131,21 +138,24 @@ nav{
     /* margin-right: 30px; */
     /* width: 1100px; */
     /* background: #000; */
+    border: 2px solid white
 }
 .intro_text{
     width: 1100px;
     margin-right: 20px;
     padding: 20px;
     /* background: rgb(184, 14, 14); */
-    border: 2px solid white;
+    /* border: 2px solid white; */
 }
 .rm_icon{
-    border: 2px solid white;
+    /* border: 2px solid white; */
     padding: 5px;
     margin: auto;
 }
 
-/* 10%  */
+
+
+/* --------------------------------------10%  */
 
 .task{
     display: flex;
@@ -183,3 +193,236 @@ nav{
 .active >.task_text> h4{
     color: rgb(0, 0, 0);
 }
+
+
+/* -------------------------------------------artist  */
+.artist_cov{
+      /* background: rgb(204, 13, 13); */
+      margin: auto;
+      margin-top: 150px;
+      margin-bottom: 150px;
+      max-width: 1100px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+
+.profil_img{
+    border: 2px solid white;
+    padding: 5px;
+    /* margin-left: 20px; */
+    /* margin-right: 10px; */
+    /* width: 150px;  */
+    height: auto;
+    padding-bottom: 0;
+}
+.artist_info{
+    margin: auto;
+    /* background: rgb(95, 238, 52); */
+    padding: 30px;
+}
+
+.artist_text{
+    width: auto;
+    width: 700px;
+}
+
+.prabu_row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 20px; */
+}
+.so_link{
+    display: flex;
+    justify-content: space-between;
+}
+.s_icon{
+    margin: auto;
+    margin-left: 20px;
+    height: 40px;
+}
+
+
+
+/* ------------------------------------------------ footer  */
+
+.thank{
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    max-width: 1100px;
+    /* background: rgb(92, 19, 19); */
+    
+}
+.thank_text{
+    margin: auto;
+    /* background: rgb(224, 25, 25); */
+    text-align: center;
+}
+
+.thank_link{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.join_link{
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+}
+
+.f_logo{
+    height: 40px;
+}
+.f_banner{
+    border: 2px solid white;
+    padding: 5px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+@media only screen and (max-width: 820px) {
+    p{
+        font-size: 15px;
+    }
+    h1{
+        font-size: 25px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    h4{
+        font-size: 16px;
+    }
+    nav{
+        width: 90%;
+        height: 40px;
+        padding: 5px;
+    }
+    .links{
+        height: 30px;
+    }
+    .logo{
+        height: 40px;
+    }
+    .hero{
+        width: 100%;
+    }
+
+    .intro_cov{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 70%;
+        flex-direction: column;
+    }
+    .introText{
+        margin-bottom: 10px;
+        width: auto;
+        text-align: center;
+       
+    }
+
+   .rm_cov{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    max-width:80%;
+    }
+
+    .task{
+ 
+        margin-top: 10px;
+        padding: 10px;
+    }
+    .artist_cov{
+        /* background: rgb(204, 13, 13); */
+        margin-top: 30px;
+        margin-bottom: 30px;
+        max-width: 60%;
+        flex-direction: column;
+    }
+
+    .artist_info{
+        padding: 10px;
+    }
+    
+    .artist_text{
+        width: auto;
+        width: 100%;
+    }
+    
+    .s_icon{
+        height: 24px;
+    }
+  
+    .thank{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        max-width: 80%;
+        /* background: rgb(92, 19, 19); */
+        
+    }
+    
+    .thank_link{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+    
+    .join_link{
+        display: flex;
+        justify-content: space-between;
+        height: 24px;
+    }
+    
+    .f_logo{
+        height: 24px;
+    } 
+    
+} 
+    /* end media  */
+
+    @media only screen and (max-width: 600px) {
+        p{
+            font-size: 10px;
+        }
+        h1{
+            font-size: 20px;
+        }
+        h2{
+            font-size: 11px;
+        }
+        h4{
+            font-size: 8px;
+        }
+
+        .artist_cov{
+            max-width: 90%;
+        }
+
+        .intro_cov{
+            width: 90%;
+        }
+        .logo{
+            height: 24px;
+        }
+        .links{
+            height: 20px;
+        }
+        .rm_cov{
+            margin-top: 10px;
+            margin-bottom: 10px;
+            max-width:100%;
+            }
+        
+        .thank{
+            margin-top: 10px;
+            margin-bottom: 10px;
+            max-width: 1010%;
+        }
+
+    }
