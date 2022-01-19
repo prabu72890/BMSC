@@ -1,5 +1,5 @@
 body{
-    background: #000;
+    background: #111820;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -20,6 +20,9 @@ h4{
 }
 hr{
     color: aliceblue;
+}
+img{
+    margin: auto;
 }
 
 /* deep style ----------------------------------------------------------------------------------- */
@@ -288,7 +291,7 @@ nav{
 
 }
 
-@media only screen and (max-width: 820px) {
+@media only screen and (max-width: 992px) {
     p{
         font-size: 15px;
     }
@@ -313,8 +316,14 @@ nav{
         height: 40px;
     }
     .hero{
-        width: 100%;
+        /* background: chocolate; */
+        width: auto;
+        margin: auto;
+        padding: 5px;
+        border: 1px solid white;
+        padding-bottom: 0;
     }
+
 
     .intro_cov{
         margin-top: 30px;
@@ -386,26 +395,40 @@ nav{
 } 
     /* end media  */
 
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 576px) {
         p{
-            font-size: 10px;
+            font-size: 12px;
         }
         h1{
             font-size: 20px;
         }
         h2{
-            font-size: 11px;
+            font-size: 16px;
         }
         h4{
-            font-size: 8px;
+            font-size: 14px;
         }
 
         .artist_cov{
-            max-width: 90%;
+            max-width: 80%;
+        }
+        .hero{
+            /* background: chocolate; */
+            /* width: 80%; */
+            /* margin: auto; */
+            padding: 2px;
+            border: 1px solid white;
+            width: auto;
+            padding-bottom: 0;
         }
 
         .intro_cov{
             width: 90%;
+        }
+        .gif{
+            border: 1px solid white;
+            padding: 2px;
+            padding-bottom: 0;
         }
         .logo{
             height: 24px;
@@ -422,8 +445,29 @@ nav{
         .thank{
             margin-top: 10px;
             margin-bottom: 10px;
-            max-width: 1010%;
+            width: auto;
             
+        }
+
+        .profil_img{
+            border: 1px solid white;
+            padding: 2px;
+            /* margin-left: 20px; */
+            /* margin-right: 10px; */
+            /* width: 150px;  */
+            height: auto;
+            padding-bottom: 0;
+        }
+        .rm_intro{
+            /* display: flex; */
+            /* justify-content: space-between; */
+            /* margin-right: 30px; */
+            width: auto;
+            /* background: #000; */
+            border: 1px solid white;
+        }
+        .active{
+            border: 1px solid white;
         }
 
     }
