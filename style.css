@@ -261,7 +261,7 @@ nav{
      align-items: center;
 }
 .thank{
-    margin: auto;
+    /* margin: auto; */
     margin-top: 150px;
     margin-bottom: 150px;
     width: 70%;
@@ -453,8 +453,13 @@ nav{
             }
         
             .thank{
-                margin: none;
-                
+                    /* margin-top: 10px; */
+            /* margin-bottom: 10px; */
+            width: 80%;
+            /* background: rgb(153, 59, 59); */
+            /* margin: 10px; */
+            /* margin: auto; */
+            /* margin: 10px;
             }
             
         
