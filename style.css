@@ -452,17 +452,19 @@ nav{
             max-width:100%;
             }
         
-        .thank{
-            /* margin-top: 10px; */
-            /* margin-bottom: 10px; */
-            width: 90%;
-            /* background: rgb(153, 59, 59); */
-            /* margin: 10px; */
-            /* margin: auto; */
-            margin-bottom: 30px;
-            margin-top: 30px;
+            .thank{
+                margin-top: 30px;
+                margin-bottom: 30px;
+                max-width: 80%;
+                /* background: rgb(92, 19, 19); */
+                
+            }
             
-        }
+            .thank_link{
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-end;
+            }
         
 
         .profil_img{
