@@ -460,6 +460,7 @@ nav{
             /* margin: 10px; */
             margin: auto;
             margin: 10px;
+            margin-bottom: 20px;
 
             
         }
@@ -488,10 +489,10 @@ nav{
         nav{
             /* display: flex; */
             /* justify-content: space-between; */
-            width: 100%;
-            margin: auto;
-            height: 50 px;
-            align-items: end;
+            width: 90%;
+            /* margin: auto; */
+            /* height: 50 px; */
+            /* align-items: end; */
             padding: 10px;
             /* background: rgb(44, 226, 69); */
         }
