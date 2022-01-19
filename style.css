@@ -455,11 +455,11 @@ nav{
         .thank{
             /* margin-top: 10px; */
             /* margin-bottom: 10px; */
-            width: 80%;
+            width: 90%;
             /* background: rgb(153, 59, 59); */
             /* margin: 10px; */
             margin: auto;
-            /* margin: 10px; */
+            margin: 10px;
 
             
         }
@@ -483,6 +483,17 @@ nav{
         }
         .active{
             border: 1px solid white;
+        }
+
+        nav{
+            /* display: flex; */
+            /* justify-content: space-between; */
+            width: 100%;
+            margin: auto;
+            height: 50 px;
+            align-items: end;
+            padding: 10px;
+            /* background: rgb(44, 226, 69); */
         }
 
     }
