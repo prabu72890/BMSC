@@ -1,5 +1,5 @@
 body{
-    /* background: #1a2531; */
+    background: #111820;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -459,7 +459,7 @@ nav{
             /* background: rgb(153, 59, 59); */
             /* margin: 10px; */
             margin: auto;
-            margin: 10px;
+            /* margin: 10px; */
 
             
         }
