@@ -458,12 +458,12 @@ nav{
             width: 90%;
             /* background: rgb(153, 59, 59); */
             /* margin: 10px; */
-            margin: auto;
-            margin: 10px;
-            margin-bottom: 20px;
-
+            /* margin: auto; */
+            margin-bottom: 30px;
+            margin-top: 30px;
             
         }
+        
 
         .profil_img{
             border: 1px solid white;
@@ -489,10 +489,10 @@ nav{
         nav{
             /* display: flex; */
             /* justify-content: space-between; */
-            width: 90%;
-            /* margin: auto; */
-            /* height: 50 px; */
-            /* align-items: end; */
+            width: auto;
+            margin: none;
+            height: 50 px;
+            align-items: none;
             padding: 10px;
             /* background: rgb(44, 226, 69); */
         }
