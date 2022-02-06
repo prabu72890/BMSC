@@ -251,14 +251,14 @@ nav{
 /* ------------------------------------------------ footer  */
 .end_nav{
      /* background: rgb(204, 13, 13); */
-     margin: auto;
+    margin: auto;
      /* margin-top: 150px; */
      /* margin-bottom: 150px; */
      /* max-width: 1100px; */
-     display: flex;
-     flex-direction: column;
-     align-content: space-between;
-     align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    align-items: center;
 }
 .thank{
     /* margin: auto; */
@@ -282,6 +282,7 @@ nav{
 
 .join_link{
     display: flex;
+    justify-content: space-between;
     height: 40px;
 }
 .f_twitter{
